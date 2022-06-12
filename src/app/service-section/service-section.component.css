@@ -1,6 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+
+.service .service-item{
+    margin-bottom: 30px;
+    flex: 0  0 33.33%;
+    max-width: 33.33%;
+    height: 100%;
+}
+.service .service-item .service-item-inner{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner:hover{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    /* background: var(--skin-color); */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner svg{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.service .service-item .service-item-inner:hover .icon{
+    background: var(--skin-color);
+}
+.service .service-item .service-item-inner:hover .icon svg{
+    font-size: 25px;
+    color: #ffffff;
+} 
+.service .service-item .service-item-inner h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.service .service-item .service-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
 body
 {
     line-height: 1.5;
@@ -28,7 +93,7 @@ ul
     background-color: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
+    position: inherit;
     padding: 0 30px;
     left: 270px;
     top: 0;
@@ -247,17 +312,11 @@ ul
     margin-right: 15px;
 }
 /* Home */
-.image{
-    /* transform: scale(0.8); */
-    position: relative;
-    left:-40px;
-}
 .home
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
-    background-image: url(../assets/images/bg.png);
 }
 .home .home-info
 {
@@ -335,4 +394,3 @@ h3.my-profession
     max-width: 100%;
     color: var(--text-black-700);
 }
-

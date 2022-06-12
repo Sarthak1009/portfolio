@@ -247,17 +247,11 @@ ul
     margin-right: 15px;
 }
 /* Home */
-.image{
-    /* transform: scale(0.8); */
-    position: relative;
-    left:-40px;
-}
 .home
 {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
-    background-image: url(../assets/images/bg.png);
 }
 .home .home-info
 {
@@ -335,4 +329,7 @@ h3.my-profession
     max-width: 100%;
     color: var(--text-black-700);
 }
-
+.image{
+    transform: scale(1);
+    position: relative;
+}

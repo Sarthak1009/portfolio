@@ -1,0 +1,21 @@
+<section class="home section" (colorSelection)="imgChange($event)">
+    <div class="container">
+        <div class="row">
+            <div class="home-info pad15">
+                <h3 class="hello">Hello, my name is <span class="name">Name Surname</span></h3>
+                <h3 class="my-profession">I'm a <span class="typing">frontend developer</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sed ullam impedit repudiandae, fuga amet animi quia quam laudantium illum magnam distinctio pariatur et nostrum sit voluptatem, doloremque, facere beatae!</p>
+                <a  class="btn hire-me">Hire Me</a>
+            </div>
+            <div class="home-img pad15">
+                <img class="image" src="../assets/images/img-red.png" alt=""
+                *ngIf="loadedfeat === 'c1'">
+                <img class="image" src="../assets/images/image-blue.png" alt=""
+                *ngIf="loadedfeat === 'c2'">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Color Switcher -->
+<app-color-changer (colorSelection)="imgChange($event)"></app-color-changer>
+<!-- Color Switcher End -->
