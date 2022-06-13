@@ -278,6 +278,7 @@ h3.hello span
 }
 h3.my-profession
 {
+    display: flex;
     font-size: 30px;
     margin: 15px 0;
 }

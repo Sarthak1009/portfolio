@@ -11,6 +11,7 @@ import { ServiceSectionComponent } from './service-section/service-section.compo
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { BgBlurDirective } from './bg-blur.directive';
+import { NgxTypedJsModule } from 'ngx-typed-js';  
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { BgBlurDirective } from './bg-blur.directive';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
