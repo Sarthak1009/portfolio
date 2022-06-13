@@ -308,7 +308,7 @@ ul
     margin-bottom: 20px;
     display: block;
 }
-.side_bar .nav li a
+.side_bar .nav li span
 {
     font-size: 16px;
     font-weight: 600;
@@ -316,12 +316,13 @@ ul
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
     padding: 5px 15px;
+    cursor: pointer;
 }
-.side_bar .nav li a.active
+.side_bar .nav li span.active
 {
     color: var(--skin-color);
 }
-.side_bar .nav li a svg
+.side_bar .nav li span svg
 {
     margin-right: 15px;
 }
