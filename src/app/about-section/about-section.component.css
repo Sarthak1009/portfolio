@@ -28,7 +28,7 @@ ul
     background-color: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
+    position: inherit !important;
     padding: 0 30px;
     left: 270px;
     top: 0;

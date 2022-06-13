@@ -25,9 +25,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/**/*",
-              "src/assets/portfolio",
-              "src/assets/images/portfolio"
+              "src/404.html"
             ],
             "styles": [
               "src/styles.css",

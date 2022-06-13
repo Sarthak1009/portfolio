@@ -14,6 +14,9 @@
     background-image: url(/src/assets/images/bg.png);
     background-size: cover;
 }
+*{
+    -webkit-tap-highlight-color: transparent;
+}
 body.dark{
     --skin-color: #ec1839;
     --bg-black-900: #151515;
@@ -450,7 +453,7 @@ h3.my-profession
     }
     
     .portfolio .portfolio-item-inner:hover{
-        transform: scale(1.25) !important;
+        transform: scale(1.15) !important;
         transition: all 0.7s ease;
     }
 }

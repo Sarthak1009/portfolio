@@ -15,7 +15,7 @@ svg{
   align-items: center;
 }
 .section{
-  position: inherit;
+  position: inherit !important;
 }
 .contact-box {
   width: clamp(100px, 90%, 1000px);
